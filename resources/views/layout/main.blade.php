@@ -60,6 +60,7 @@
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="/">Student's Name <span class="glyphicon glyphicon-search"></span></a></li>
+					
 				</ul>
 			</div>
 		</div>

@@ -22,3 +22,29 @@
 	padding-left: 30px;
 	font-size:16px;
 }
+
+.tags{
+	text-decoration: none;
+	color:white;
+}
+
+.tags:hover{
+	color:white;
+}
+
+#course-name{
+	text-decoration: none;
+	color:#000;
+}
+
+#course-name:hover{
+	color:#3f4b53;
+}
+
+.list-group .list-group-item{
+	font-size:16px;
+}
+.list-group .list-group-item:hover{
+	background-color: #25B6CE;
+	color:#fff;
+}

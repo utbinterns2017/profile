@@ -16,6 +16,7 @@
 					<img src="img\user.jpg" class="img-square" id="userpic" alt="user-pic">
 					<h4><i>Melanie Laurent</i></h4>
 					<div class="list-group">
+						<a href="/dashboard" class="list-group-item">Enrolled Courses <span class="badge">78</span></a>
 						<a href="#" class="list-group-item">My Institution <span class="badge">4</span></a>
 						<a href="#" class="list-group-item">My Social Media <span class="badge">3</span></a>
 					</div>
@@ -56,21 +57,12 @@
 
 	<div class="col-md-4 tag-div">
 		<div class="well">
-			<h2 class="text-center">Interests</h2>
+			<h2 class="text-center">Tags of Interests</h2>
 			<hr>
 			<div class="text-center">
-				<h4><span class="label label-default">Hello</span></h4>
-				<h4><span class="label label-default">CUHK</span></h4>
-				<h4><span class="label label-default">Mathematics</span></h4>
-				<h4><span class="label label-default">Geography</span></h4>
-				<h4><span class="label label-default">Hello</span></h4>
-				<h4><span class="label label-default">CUHK</span></h4>
-				<h4><span class="label label-default">Mathematics</span></h4>
-				<h4><span class="label label-default">Geography</span></h4>
-				<h4><span class="label label-default">Hello</span></h4>
-				<h4><span class="label label-default">CUHK</span></h4>
-				<h4><span class="label label-default">Mathematics</span></h4>
-				<h4><span class="label label-default">Geography</span></h4>
+				@foreach($tags as $tag)
+				<h4><span class="label label-default"><a href="/view-courses" class="tags">{{ $tag }}</a></span></h4>
+				@endforeach
 				<hr>
 				<a href=""><span class="glyphicon glyphicon-plus-sign"></span> Add More</a>
 			</div>

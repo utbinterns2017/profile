@@ -12,5 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('pages.profile');
+	$tags = array("CUHK", "Design and Creativity", "Film and Theatre", "History", "Literature and Writing", "Music and Dance", "Philosophy and Ethics", "Religion and Culture", "Visual Arts and Photography", "France Language", "Anthropology", "Law", "Politics");
+	return view('pages.profile')->withTags($tags);
+});
+
+Route::get('/view-courses', function(){
+	$courses = array("Adobe Photoshop CC", "Sketch 3", "Adobe Illustrator CC 2015", "Adobe Dreamweaver CC", "Adobe Premiere Pro CC", "Adobe InDesign CS6", "iDraw");
+
+	return view('pages.tags-list')->withCourses($courses);
+});
+
+Route::get('/dashboard', function(){
+	return view('pages.dashboard');
 });
