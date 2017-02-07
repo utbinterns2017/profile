@@ -13,9 +13,10 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="text-center">
-					<img src="img\user.jpg" class="img-square" id="userpic" alt="user-pic">
-					<h4><i>Melanie Laurent</i></h4>
+					<img src="img\default-profile.png" class="img-square" id="userpic" alt="user-pic">
+					<h4><i>Roland Marshall</i></h4>
 					<div class="list-group">
+						<a href="#" class="list-group-item" id="active">Profile</a>
 						<a href="{{route('page.dashboard')}}" class="list-group-item">Enrolled Courses <span class="badge">78</span></a>
 						<a href="#" class="list-group-item">My Institution <span class="badge">4</span></a>
 						<a href="#" class="list-group-item">My Social Media <span class="badge">3</span></a>
@@ -41,14 +42,14 @@
 					</div><!--end of about-me-title-div-->
 
 					<div class="col-md-8">
-						<p><italic>mel.laurent</italic></p>	
-						<p><italic>Melanie Laurent</italic></p>
-						<p><italic>Female</italic></p>
+						<p><italic>roland.marshall</italic></p>	
+						<p><italic>Roland Marshall</italic></p>
+						<p><italic>Secret</italic></p>
 						<p><italic>France</italic></p>
 						<p><italic>1<sup>st</sup> February 1992</italic></p>
-						<p><italic>Bachelor of Arts</italic></p>
+						<p><italic>Bachelor of Arts in Music</italic></p>
 						<p><italic>Nothing will stop me from learning. I have faith that education will make people wiser, wealthier and sometimes scarier.</italic></p>
-						<a href="#"  class="btn btn-default btn-sm option-btn pull-right"><span class="glyphicon glyphicon-edit"></span> Update</a>
+						<a href="{{route('page.editprofile')}}"  class="btn btn-default btn-sm option-btn pull-right"><span class="glyphicon glyphicon-edit"></span> Update</a>
 					</div><!--end of about-me-desc-div-->
 				</div><!--end of about-me-div-->
 			</div><!--end of quote-div-->

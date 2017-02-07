@@ -20,4 +20,8 @@ class PageController extends Controller
 	public function getDashboard(){
 		return view('pages.dashboard');
 	}
+
+	public function getEditProfile(){
+		return view('pages.editprofile');
+	}
 }

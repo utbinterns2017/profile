@@ -16,16 +16,21 @@ Route::get('/', function () {
 });
 
 Route::get('/profile', [
-		'uses' => 'PageController@getProfile',
-		'as' => 'page.index'
+	'uses' => 'PageController@getProfile',
+	'as' => 'page.index'
 	]);
 
 Route::get('/view-courses', [
-		'uses' => 'PageController@getCourses',
-		'as' => 'page.courses'
+	'uses' => 'PageController@getCourses',
+	'as' => 'page.courses'
 	]);
 
 Route::get('/dashboard', [
-		'uses' => 'PageController@getDashboard',
-		'as' => 'page.dashboard'
+	'uses' => 'PageController@getDashboard',
+	'as' => 'page.dashboard'
+	]);
+
+Route::get('/edit-profile', [
+	'uses' => 'PageController@getEditProfile',
+	'as' => 'page.editprofile'
 	]);

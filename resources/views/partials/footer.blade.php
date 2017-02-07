@@ -2,7 +2,7 @@
 
 	<div class="row">
 		<div class="col-md-6" style="padding-left: 50px;">
-			<h3>KEEP</h3>
+			<h3 style="color:#25B6CE;">KEEP</h3>
 			<p>6/F, Hui Yeung Shing Building</p>
 			<p>The Chinese University of Hong Kong</p>
 			<p>Sha Tin, N.T. Hong Kong</p>

@@ -3,7 +3,8 @@
 }
 
 #userpic{
-	width:100%;
+	width:250px;
+	height:250px;
 	border-radius:10px;
 }
 
@@ -48,12 +49,28 @@
 
 .list-group .list-group-item{
 	font-size:16px;
+	text-align: left;
 }
-.list-group .list-group-item:hover{
+
+#active{
 	background-color: #25B6CE;
 	color:#fff;
 }
 
+.edit-save{
+	background-color: #25B6CE;
+	color:#fff;
+}
+
+
 #bottom-hr{
 	margin-bottom: 30px;
+}
+
+#upload-btn{
+	display:none;
+}
+
+#img-read{
+	padding-left:30px;
 }
