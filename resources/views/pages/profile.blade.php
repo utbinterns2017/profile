@@ -9,6 +9,7 @@
 	<div class="col-md-8 form-div">
 		<h2><span class="glyphicon glyphicon-user"></span> User Profile </h2>
 		<hr>
+		<!--There is something wrong with this layout on mobile. Gotta change it if accepted-->
 
 		<div class="row">
 			<div class="col-md-4">
