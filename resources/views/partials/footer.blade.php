@@ -1,4 +1,4 @@
-<div class="container-fluid" style="background-color: #f2f2f2; margin-top:0 !important; padding:10px; height:225px; padding:20px;">
+<div class="container-fluid" style="background-color: #f2f2f2; margin-top:0 !important; padding:10px; height:auto; padding:20px;">
 
 	<div class="row">
 		<div class="col-md-6" style="padding-left: 50px;">

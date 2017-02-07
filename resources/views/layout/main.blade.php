@@ -37,7 +37,7 @@
 		}
 
 		.navbar .navbar-toggle .icon-bar {
-			background-color: white;
+			background-color: #25B6CE	;
 		}
 
 	</style>
