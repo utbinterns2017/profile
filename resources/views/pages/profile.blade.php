@@ -57,6 +57,7 @@
 				</tr>
 			</tbody>
 		</table>
+		<a href="{{route('page.editprofile')}}"  class="btn btn-default btn-sm option-btn pull-right"><span class="glyphicon glyphicon-edit"></span> Update</a>
 
 	</div><!-- End of user info div -->
 
