@@ -30,6 +30,11 @@
 
 .tags:hover{
 	color:white;
+	text-decoration: none;
+}
+
+.tag-btn:hover{
+	background-color:#25B6CE;
 }
 
 #course-name{
@@ -47,4 +52,8 @@
 .list-group .list-group-item:hover{
 	background-color: #25B6CE;
 	color:#fff;
+}
+
+#bottom-hr{
+	margin-bottom: 30px;
 }

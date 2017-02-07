@@ -39,6 +39,7 @@
 		.navbar .navbar-toggle .icon-bar {
 			background-color: white;
 		}
+
 	</style>
 	@yield('styles')
 	
@@ -46,14 +47,14 @@
 <body>
 	<!--Navigation-->
 	<nav class="navbar">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span> 
 				</button>
-				<a class="navbar-brand" href="/" style="padding-left: 50px">KEEP</a>
+				<a class="navbar-brand" href="/"> KEEP </a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">

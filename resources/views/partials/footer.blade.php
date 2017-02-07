@@ -1,4 +1,4 @@
-<div class="container-fluid" style="background-color: #f2f2f2; margin-top:0 !important; padding:10px; height:200px; padding:20px;">
+<div class="container-fluid" style="background-color: #f2f2f2; margin-top:0 !important; padding:10px; height:225px; padding:20px;">
 
 	<div class="row">
 		<div class="col-md-6" style="padding-left: 50px;">
@@ -31,7 +31,6 @@
 		</div>
 
 
-
 		{{-- <div class="col-md-6 col-md-offset-4">
 			<table class="table">
 				<tbody>
@@ -57,5 +56,11 @@
 				</tbody>
 			</table>
 		</div> --}}
+	</div>
+
+	<div class="container-fluid" style="margin-top:20px;">
+		<p class="text-center">
+			Copyright &copy; 2014-2017 KEEP. The Chinese University of Hong Kong. All rights reserved.
+		</p>
 	</div>
 </div>
