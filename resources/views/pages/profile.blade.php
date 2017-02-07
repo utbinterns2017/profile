@@ -32,8 +32,8 @@
 					<th>Username</th>
 					<td>macintosh.windows</td>
 				</tr>				<tr>
-					<th>Full Name</th>
-					<td>Macintosh Windows II</td>
+				<th>Full Name</th>
+				<td>Macintosh Windows II</td>
 				</tr>
 				<tr>
 					<th>Gender</th>
@@ -67,7 +67,7 @@
 			<hr>
 			<div class="text-center">
 				@foreach($tags as $tag)
-					<h4><span class="label label-default tag-btn"><a href="{{route('page.courses')}}" class="tags">{{ $tag }}</a></span></h4>
+				<h4><span class="label label-default tag-btn"><a href="{{route('page.courses')}}" class="tags">{{ $tag }}</a></span></h4>
 				@endforeach
 				<hr>
 				<a href=""><span class="glyphicon glyphicon-plus-sign"></span> Add More</a>
