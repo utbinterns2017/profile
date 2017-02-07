@@ -31,12 +31,7 @@
 				<tr>
 					<th>Username</th>
 					<td>macintosh.windows</td>
-				</tr>
-				<tr>
-					<th>Name</th>
-					<td>Macintosh Windows II</td>
-				</tr>
-				<tr>
+				</tr>				<tr>
 					<th>Full Name</th>
 					<td>Macintosh Windows II</td>
 				</tr>
