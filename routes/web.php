@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-	
-});
+Route::get('/', [
+	'uses' => 'PageController@getProfile',
+	'as' => 'page.index'
+	]);
 
 Route::get('/profile', [
 	'uses' => 'PageController@getProfile',
